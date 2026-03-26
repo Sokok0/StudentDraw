@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Remove specific generated and platform-specific folders from GitHub language statistics
+Platforms/** linguist-generated=true
+bin/** linguist-generated=true
+obj/** linguist-generated=true
+*.ll linguist-generated=true
+*.pdb linguist-generated=true
+
