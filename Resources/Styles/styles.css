@@ -1,0 +1,83 @@
+^contentpage {
+    background-color: #f7f9fc;
+}
+
+shell {
+    background-color: #3F51B5;
+    color: #ffffff;
+}
+
+navigationpage {
+    background-color: #3F51B5;
+    color: #ffffff;
+}
+
+.title-label {
+    font-size: 28;
+    font-weight: bold;
+    color: #4CAF50;
+    text-align: center;
+    margin: 10, 0, 20, 0;
+}
+
+#mainTitleLabel {
+    color: #FF5722;
+    font-size: 32;
+    text-transform: uppercase;
+}
+
+#manageTitleLabel {
+    color: #2196F3;
+    font-size: 32;
+    text-transform: uppercase;
+}
+
+.subtitle-label {
+    font-size: 18;
+    color: #555555;
+    font-weight: 500;
+}
+
+.input-field {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    color: #333333;
+    padding: 10;
+}
+
+.editor-field {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    color: #333333;
+    font-size: 16;
+}
+
+button {
+    font-size: 16;
+    font-weight: bold;
+    border-radius: 8;
+    padding: 15, 20;
+    color: #ffffff;
+    background-color: #4CAF50;
+}
+
+.primary-btn {
+    background-color: #2196F3;
+}
+
+.danger-btn {
+    background-color: #f44336;
+}
+
+#drawButton {
+    background-color: #FF9800;
+    font-size: 20;
+    height: 60;
+}
+
+#drawnPersonResult {
+    font-size: 48;
+    font-weight: bold;
+    color: #E91E63;
+    margin: 20;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentDraw.Views.ManageClassesPage"
+             StyleClass="page-container"
+             Title="Zarządzaj klasami">
+
+    <Grid RowDefinitions="Auto, Auto, *, Auto" Padding="20" RowSpacing="15">
+        <!-- Zmiana Tytułowa - custom app title styled by CSS -->
+        <Label StyleId="manageTitleLabel" 
+               Text="Edycja listy uczniów" 
+               StyleClass="title-label" 
+               Grid.Row="0"/>
+
+        <HorizontalStackLayout Grid.Row="1" Spacing="10">
+            <Entry x:Name="ClassNameEntry" 
+                   Placeholder="Nazwa klasy (np. 1A)" 
+                   WidthRequest="200"
+                   StyleClass="input-field"/>
+            <Button Text="Wybierz lub stwórz" 
+                    Clicked="OnSelectClassClicked"
+                    StyleClass="primary-btn"/>
+            <Button Text="Usuń klasę" 
+                    Clicked="OnDeleteClassClicked"
+                    StyleClass="danger-btn"/>
+        </HorizontalStackLayout>
+
+        <ScrollView Grid.Row="2">
+            <VerticalStackLayout>
+                <Label x:Name="CurrentClassLabel" 
+                       Text="Brak wybranej klasy" 
+                       StyleClass="subtitle-label"/>
+                <Editor x:Name="StudentsEditor"
+                        Placeholder="Lista uczniów (każdy w nowej linii)"
+                        HeightRequest="300"
+                        StyleClass="editor-field"
+                        IsVisible="False" />
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Button x:Name="SaveButton"
+                Text="Zapisz listę uczniów"
+                Clicked="OnSaveClicked"
+                StyleClass="primary-btn"
+                Grid.Row="3"
+                IsVisible="False"/>
+    </Grid>
+</ContentPage>

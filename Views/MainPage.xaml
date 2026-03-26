@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentDraw.Views.MainPage">
+
+    <Grid RowDefinitions="Auto, Auto, *, Auto" Padding="20" RowSpacing="20">
+        <Label StyleId="mainTitleLabel" 
+               Text="Wylosuj osobę" 
+               StyleClass="title-label" 
+               Grid.Row="0"/>
+
+        <HorizontalStackLayout Grid.Row="1" Spacing="10">
+            <Label Text="Wybierz klasę:" 
+                   VerticalOptions="Center" 
+                   StyleClass="subtitle-label"/>
+            <Picker x:Name="ClassPicker" 
+                    WidthRequest="200" 
+                    SelectedIndexChanged="OnClassPickerSelectedIndexChanged"
+                    StyleClass="input-field"/>
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout Grid.Row="2" Spacing="20" VerticalOptions="Center">
+            <Label Text="Wylosowana osoba:"
+                   HorizontalOptions="Center"
+                   StyleClass="subtitle-label" />
+
+            <Label x:Name="DrawnPersonLabel"
+                   Text="???"
+                   StyleId="drawnPersonResult"
+                   HorizontalOptions="Center" />
+        </VerticalStackLayout>
+
+        <Button Text="Losuj" 
+                Clicked="OnDrawClicked" 
+                StyleId="drawButton"
+                Grid.Row="3" />
+    </Grid>
+</ContentPage>
