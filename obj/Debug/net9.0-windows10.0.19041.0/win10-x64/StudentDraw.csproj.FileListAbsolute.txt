@@ -8,7 +8,6 @@ C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0
 C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
 C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
 C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
-C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\\XamlSaveStateFile.xml
 C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\StudentDraw.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
 C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
@@ -513,3 +512,5 @@ C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0
 C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+C:\Users\kulcz\source\repos\StudentDraw\StudentDraw\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\StudentDraw.sourcelink.json
