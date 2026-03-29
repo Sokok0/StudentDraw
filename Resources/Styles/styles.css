@@ -81,3 +81,12 @@ button {
     color: #E91E63;
     margin: 20;
 }
+
+.nav-title {
+    background-color: red;
+    color: white;
+    font-size: 24;
+    font-weight: bold;
+    margin: 10, 0;
+    text-align: center;
+}
