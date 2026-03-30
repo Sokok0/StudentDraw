@@ -6,7 +6,6 @@
              Title="Zarządzaj klasami">
 
     <Grid RowDefinitions="Auto, Auto, *, Auto" Padding="20" RowSpacing="15">
-        <!-- Zmiana Tytułowa - custom app title styled by CSS -->
         <Label StyleId="manageTitleLabel" 
                Text="Edycja listy uczniów" 
                StyleClass="title-label" 
